@@ -1,0 +1,43 @@
+<section id="site-details">
+    <div class="site-info container row">
+        <div class="image-class col-md-8">
+            <img [src]="site?.imageUrl" alt="">
+        </div>
+        <div class="col-md-4">
+            <div class="container name">
+                <h4>{{site?.name}}</h4>
+                <p>Founded in: 1997</p>
+            </div>
+            <div class="container address">
+                <h4>Address</h4>
+                <p>{{site?.location?.Region}}</p>
+                <p>{{site?.location?.Division}}</p>
+                <p>{{site?.location?.Town}}</p>
+            </div>
+            <div class="container book">
+                <button class="btn btn-primary">Visit Now</button>
+                <button class="btn btn-default">Cancel</button>
+            </div>
+        </div>
+    </div>
+</section>
+<section>
+    <div class="container describtion">
+        <h5>Describtion: </h5>
+        <span>It is a long established fact that a reader will be distracted
+            by the readable content of a page when looking at its layout.
+            The point of using Lorem Ipsum is that it has a more-or-less normal
+            distribution of letters, as opposed to using 'Content here, content here'
+            , making it look like readable English. Many desktop publishing 
+            packages and web page editors now use Lorem Ipsum as their default
+            model text, and a search for 'lorem ipsum' will uncover many web
+            sites still in their infancy
+        </span>
+    </div>
+</section>
+<section>
+    <div class="container">
+        <hr>
+        <h4 class="display-4">More Sites</h4>
+    </div>
+</section>
